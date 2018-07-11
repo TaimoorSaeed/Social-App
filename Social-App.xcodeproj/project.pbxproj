@@ -97,6 +97,7 @@
 		BD8B4F2920F65D3500811889 /* Social-App */ = {
 			isa = PBXGroup;
 			children = (
+				BD8B4F5820F65E1500811889 /* ViewControllers */,
 				BD8B4F2A20F65D3500811889 /* AppDelegate.swift */,
 				BD8B4F2C20F65D3500811889 /* ViewController.swift */,
 				BD8B4F2E20F65D3500811889 /* Main.storyboard */,
@@ -123,6 +124,13 @@
 				BD8B4F4C20F65D3600811889 /* Info.plist */,
 			);
 			path = "Social-AppUITests";
+			sourceTree = "<group>";
+		};
+		BD8B4F5820F65E1500811889 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
