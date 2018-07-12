@@ -11,13 +11,18 @@
 		A1AE78293886A8CD5BF28441 /* Pods_Social_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767BA238EE6F79D1915D7CA9 /* Pods_Social_App.framework */; };
 		A975B1742D7F571B32A5C705 /* Pods_Social_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D02D4C031FD9E4866D5B8DE /* Pods_Social_AppUITests.framework */; };
 		BD8B4F2B20F65D3500811889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B4F2A20F65D3500811889 /* AppDelegate.swift */; };
-		BD8B4F2D20F65D3500811889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B4F2C20F65D3500811889 /* ViewController.swift */; };
+		BD8B4F2D20F65D3500811889 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B4F2C20F65D3500811889 /* SignInVC.swift */; };
 		BD8B4F3020F65D3500811889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8B4F2E20F65D3500811889 /* Main.storyboard */; };
 		BD8B4F3220F65D3500811889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8B4F3120F65D3500811889 /* Assets.xcassets */; };
 		BD8B4F3520F65D3500811889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8B4F3320F65D3500811889 /* LaunchScreen.storyboard */; };
 		BD8B4F4020F65D3500811889 /* Social_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B4F3F20F65D3500811889 /* Social_AppTests.swift */; };
 		BD8B4F4B20F65D3600811889 /* Social_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B4F4A20F65D3600811889 /* Social_AppUITests.swift */; };
 		BD8B4F5A20F661F000811889 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD8B4F5920F661F000811889 /* GoogleService-Info.plist */; };
+		BD9A818F20F79D1C00A30489 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A818E20F79D1C00A30489 /* FancyView.swift */; };
+		BD9A819120F79D9100A30489 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A819020F79D9100A30489 /* Constants.swift */; };
+		BD9A819320F79F2300A30489 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A819220F79F2300A30489 /* RoundBtn.swift */; };
+		BD9A819920F7A19F00A30489 /* FancyFeild.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A819820F7A19F00A30489 /* FancyFeild.swift */; };
+		BD9A819B20F7A38400A30489 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A819A20F7A38400A30489 /* FancyBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +52,7 @@
 		9248648225F42992D7733ABA /* Pods-Social-AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social-AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Social-AppTests/Pods-Social-AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD8B4F2720F65D3500811889 /* Social-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8B4F2A20F65D3500811889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD8B4F2C20F65D3500811889 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD8B4F2C20F65D3500811889 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		BD8B4F2F20F65D3500811889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD8B4F3120F65D3500811889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD8B4F3420F65D3500811889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +64,11 @@
 		BD8B4F4A20F65D3600811889 /* Social_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_AppUITests.swift; sourceTree = "<group>"; };
 		BD8B4F4C20F65D3600811889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD8B4F5920F661F000811889 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BD9A818E20F79D1C00A30489 /* FancyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		BD9A819020F79D9100A30489 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BD9A819220F79F2300A30489 /* RoundBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		BD9A819820F7A19F00A30489 /* FancyFeild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyFeild.swift; sourceTree = "<group>"; };
+		BD9A819A20F7A38400A30489 /* FancyBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		E858253D553E89ED71D7176E /* Pods-Social-AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social-AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Social-AppTests/Pods-Social-AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		F335967112942AE2407BF573 /* Pods-Social-AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social-AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Social-AppUITests/Pods-Social-AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,8 +149,11 @@
 		BD8B4F2920F65D3500811889 /* Social-App */ = {
 			isa = PBXGroup;
 			children = (
+				BD9A819720F79F4C00A30489 /* View */,
+				BD9A819620F79F4400A30489 /* Controller */,
+				BD9A819520F79F3E00A30489 /* Model */,
+				BD9A819420F79F3500A30489 /* Utilities */,
 				BD8B4F2A20F65D3500811889 /* AppDelegate.swift */,
-				BD8B4F2C20F65D3500811889 /* ViewController.swift */,
 				BD8B4F2E20F65D3500811889 /* Main.storyboard */,
 				BD8B4F3120F65D3500811889 /* Assets.xcassets */,
 				BD8B4F3320F65D3500811889 /* LaunchScreen.storyboard */,
@@ -166,6 +179,40 @@
 				BD8B4F4C20F65D3600811889 /* Info.plist */,
 			);
 			path = "Social-AppUITests";
+			sourceTree = "<group>";
+		};
+		BD9A819420F79F3500A30489 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BD9A819020F79D9100A30489 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BD9A819520F79F3E00A30489 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD9A819620F79F4400A30489 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD8B4F2C20F65D3500811889 /* SignInVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BD9A819720F79F4C00A30489 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD9A818E20F79D1C00A30489 /* FancyView.swift */,
+				BD9A819220F79F2300A30489 /* RoundBtn.swift */,
+				BD9A819820F7A19F00A30489 /* FancyFeild.swift */,
+				BD9A819A20F7A38400A30489 /* FancyBtn.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,8 +435,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD8B4F2D20F65D3500811889 /* ViewController.swift in Sources */,
+				BD8B4F2D20F65D3500811889 /* SignInVC.swift in Sources */,
+				BD9A819320F79F2300A30489 /* RoundBtn.swift in Sources */,
+				BD9A819920F7A19F00A30489 /* FancyFeild.swift in Sources */,
 				BD8B4F2B20F65D3500811889 /* AppDelegate.swift in Sources */,
+				BD9A818F20F79D1C00A30489 /* FancyView.swift in Sources */,
+				BD9A819120F79D9100A30489 /* Constants.swift in Sources */,
+				BD9A819B20F7A38400A30489 /* FancyBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
