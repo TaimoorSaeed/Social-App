@@ -10,14 +10,20 @@ import UIKit
 import FBSDKCoreKit
 import FBSDKLoginKit
 import Firebase
+import FirebaseAuth
 
 class SignInVC: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    
+    @IBOutlet weak var emailFeild: FancyFeild!
+    @IBOutlet weak var passwordFeild: FancyFeild!
+    
+    
     @IBAction func fbBtnPressed(_ sender: Any) {
         
         let facebookLogin = FBSDKLoginManager()
@@ -43,6 +49,29 @@ class SignInVC: UIViewController {
                 print("Sucessfull authenicated with firebase")
             }
         }
+    }
+    
+    
+    @IBAction func signInTapped(_ sender: Any) {
+        if let email = emailFeild.text , let pwd = passwordFeild.text {
+            Auth.auth().signIn(withEmail: email, password: pwd, completion: { (user, error) in
+                if error == nil {
+                    print("Email user authenticaed with firebase")
+                } else {
+                    
+                    print(error?.localizedDescription)
+                    
+                    Auth.auth().createUser(withEmail: email, password: pwd, completion: { (user, error) in
+                        if error != nil {
+                            print("Unable to authenticate with firebase using email")
+                        } else {
+                            print("Sucessfully authenicated with firebase")
+                        }
+                    })
+                }
+            })
+        }
+        
     }
     
 }
