@@ -10,6 +10,7 @@
 		12C7BECC3868EC03096423B7 /* Pods_Social_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B30294CE9F92561B2338319 /* Pods_Social_AppTests.framework */; };
 		A1AE78293886A8CD5BF28441 /* Pods_Social_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767BA238EE6F79D1915D7CA9 /* Pods_Social_App.framework */; };
 		A975B1742D7F571B32A5C705 /* Pods_Social_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D02D4C031FD9E4866D5B8DE /* Pods_Social_AppUITests.framework */; };
+		BD42CA5D20FE4D4A003DCB54 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD42CA5C20FE4D4A003DCB54 /* FeedViewController.swift */; };
 		BD8B4F2B20F65D3500811889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B4F2A20F65D3500811889 /* AppDelegate.swift */; };
 		BD8B4F2D20F65D3500811889 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B4F2C20F65D3500811889 /* SignInVC.swift */; };
 		BD8B4F3020F65D3500811889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8B4F2E20F65D3500811889 /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		8B30294CE9F92561B2338319 /* Pods_Social_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9087A946D7AD5309701C63D0 /* Pods-Social-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Social-App/Pods-Social-App.debug.xcconfig"; sourceTree = "<group>"; };
 		9248648225F42992D7733ABA /* Pods-Social-AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social-AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Social-AppTests/Pods-Social-AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD42CA5C20FE4D4A003DCB54 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		BD8B4F2720F65D3500811889 /* Social-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8B4F2A20F65D3500811889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD8B4F2C20F65D3500811889 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				BD8B4F2C20F65D3500811889 /* SignInVC.swift */,
+				BD42CA5C20FE4D4A003DCB54 /* FeedViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -390,6 +394,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -447,6 +452,7 @@
 				BD8B4F2B20F65D3500811889 /* AppDelegate.swift in Sources */,
 				BD9A818F20F79D1C00A30489 /* FancyView.swift in Sources */,
 				BD9A819120F79D9100A30489 /* Constants.swift in Sources */,
+				BD42CA5D20FE4D4A003DCB54 /* FeedViewController.swift in Sources */,
 				BD9A819B20F7A38400A30489 /* FancyBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
